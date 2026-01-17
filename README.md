@@ -1,8 +1,6 @@
 # Autoencoders vs PCA — A Modern Replication of Hinton & Salakhutdinov (2006)
 
-This project replicates the core empirical claim of  
-**Hinton & Salakhutdinov (2006), _Reducing the Dimensionality of Data with Neural Networks_**,  
-using modern tools and training practices.
+This project replicates the core empirical claim of  **Hinton & Salakhutdinov (2006), _Reducing the Dimensionality of Data with Neural Networks_**,  using modern tools and training practices.
 
 The original paper showed that nonlinear autoencoders can achieve lower reconstruction error than PCA when compressing high-dimensional data. In this project, we compare a standard PCA baseline with a multilayer perceptron autoencoder under matched latent dimensionality constraints.
 
