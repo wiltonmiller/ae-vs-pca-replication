@@ -56,7 +56,7 @@ def load_json(path: PathLike) -> Dict[str, Any]:
     with p.open('r', encoding='utf-8') as f:
         return json.load(f)
     
-
+   
 def save_csv(path: PathLike, df: pd.DataFrame, index: bool = False) -> None:
     """
     Save a pandas DataFrame to a CSV file.

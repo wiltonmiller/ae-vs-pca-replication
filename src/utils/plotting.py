@@ -10,7 +10,7 @@ from src.utils.io import ensure_dir
 
 PathLike = Union[str, Path]
 
-def _to_img(x: np.ndarray, image_shape: Tuple[int, int]) -> npndarray:
+def _to_img(x: np.ndarray, image_shape: Tuple[int, int]) -> np.ndarray:
     """
     Convert a single image into 2D format for visualization.
 
