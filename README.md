@@ -26,6 +26,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-python scripts/sweep_latents.py
-python scripts/make_figures.py
+python -m scripts.sweep_latents
+python -m scripts.make_figures
 
