@@ -5,7 +5,7 @@ This project replicates the core empirical claim of  **Hinton & Salakhutdinov (2
 The original paper showed that nonlinear autoencoders can achieve lower reconstruction error than PCA when compressing high-dimensional data. In this project, we compare a standard PCA baseline with a multilayer perceptron autoencoder under matched latent dimensionality constraints.
 
 📄 **Technical Report:**  
-[Revisiting Dimensionality Reduction with Autoencoders — A Modern Empirical Replication (PDF)](report/Revisiting_Dimensionality_Reduction_with_Autoencoders.pdf)
+[Revisiting Dimensionality Reduction with Autoencoders — A Modern Empirical Replication (PDF)](report/Revisiting_Dimensionality_Reduction_with_Autoencoders__A_Modern_Empirical_Replication.pdf)
 
 ## Dataset
 - MNIST (28×28 grayscale images)
